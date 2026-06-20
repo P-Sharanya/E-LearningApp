@@ -1,0 +1,194 @@
+{
+  "app": {
+    "name": "Learning App"
+  },
+
+  "users": [
+    {
+      "uid": "u1",
+      "email": "test@test.com",
+      "enrolledCourses": ["c1", "c2"],
+      "progress": {
+        "c1": 0.6,
+        "c2": 0.2
+      }
+    }
+  ],
+
+  "courses": [
+    {
+      "id": "c1",
+      "title": "SwiftUI Mastery",
+      "imageName": "course5",
+      "description": "Learn SwiftUI from beginner to advanced",
+      "durations": "5h",
+      "rating": 4.8,
+
+      "whatYouWillLearn": [
+        "Build real SwiftUI apps",
+        "Understand MVVM architecture",
+        "Work with navigation in SwiftUI",
+        "Handle API integration"
+      ],
+
+      "lectures": [
+        {
+          "id": "c1_l1",
+          "title": "Introduction to SwiftUI",
+          "duration": "18.25 min",
+          "videoUrl": "video1.mp4",
+          "progress": 1.0,
+          "isLocked": false
+        },
+        {
+          "id": "c2_l2",
+          "title": "Views & Layout Basics",
+          "duration": "16.29 min",
+          "videoUrl": "video2.mp4",
+          "progress": 0.4,
+          "isLocked": false
+        },
+        {
+          "id": "c3_l3",
+          "title": "Stacks and Alignment",
+          "duration": "12.10 min",
+          "videoUrl": "video3.mp4",
+          "progress": 0.0,
+          "isLocked": true
+        }
+      ],
+      "instructor": "Manoj",
+      "students": 1200
+    },
+
+    {
+      "id": "c2",
+      "title": "Firebase + iOS",
+      "imageName": "course2",
+      "description": "Backend for iOS apps",
+      "durations": "6h",
+      "rating": 4.6,
+
+      "whatYouWillLearn": [
+        "Firebase Auth",
+        "Firestore basics",
+        "User management",
+        "Real-time data sync"
+      ],
+
+      "lectures": [
+        {
+          "id": "c2_l1",
+          "title": "Firebase Setup",
+          "duration": "12 min",
+          "videoUrl": "video9.mp4",
+          "progress": 0.0,
+          "isLocked": false
+        },{
+            "id": "c2_l3",
+            "title": "Firebase",
+            "duration": "12.10 min",
+            "videoUrl": "video6.mp4",
+            "progress": 0.0,
+            "isLocked": true
+          }
+      ],
+      "instructor": "Ghouse",
+      "students": 1200
+    },
+
+    {
+      "id": "c3",
+      "title": "UIKit Fundamentals",
+      "imageName": "course3",
+      "description": "Learn UIKit from scratch",
+      "durations": "4h",
+      "rating": 4.5,
+
+      "whatYouWillLearn": [
+        "UIKit basics",
+        "ViewControllers",
+        "AutoLayout",
+        "Navigation patterns"
+      ],
+
+      "lectures": [
+          {
+            "id": "c3_l3",
+            "title": "UIKit",
+            "duration": "12.10 min",
+            "videoUrl": "video9.mp4",
+            "progress": 0.0,
+            "isLocked": true
+          }
+      ],
+      "instructor": "varun",
+      "students": 1200
+    },
+
+    {
+      "id": "c4",
+      "title": "Combine Framework",
+      "imageName": "course4",
+      "description": "Reactive programming in iOS",
+      "durations": "3h",
+      "rating": 4.3,
+
+      "whatYouWillLearn": [
+        "Publishers & Subscribers",
+        "Data streams",
+        "Async handling",
+        "SwiftUI integration"
+      ],
+
+      "lectures": [
+          {
+            "id": "c4_l3",
+            "title": "combine",
+            "duration": "12.10 min",
+            "videoUrl": "video8.mp4",
+            "progress": 0.0,
+            "isLocked": true
+          }
+      ],
+      "instructor": "srivani",
+      "students": 1200
+    },
+
+    {
+      "id": "c5",
+      "title": "Advanced SwiftUI Animations",
+      "imageName": "course5",
+      "description": "Animations & transitions",
+      "durations": "2.5h",
+      "rating": 4.7,
+
+      "whatYouWillLearn": [
+        "Implicit animations",
+        "Matched geometry",
+        "Transitions",
+        "Gestures"
+      ],
+
+      "lectures": [],
+      "instructor": "om",
+      "students": 1200
+    }
+  ],
+
+  "dashboard": {
+    "carouselCourses": ["c1", "c2", "c3"],
+    "recentlyAdded": ["c4", "c5"],
+
+    "upcomingCourses": [
+      {
+        "courseId": "c7",
+        "date": "2026-06-25"
+      },
+      {
+        "courseId": "c2",
+        "date": "2026-07-01"
+      }
+    ]
+  }
+}
